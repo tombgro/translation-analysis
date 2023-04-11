@@ -22,4 +22,4 @@ The file translation_shifts.py contains functions that take the alignment file a
 - **word_order_shifts(alignment_file):** list of translations between word-pairs with the linear order shifted (plus counts)
 
 Use from terminal / command-line: \\
-`python translation_shifts.py --src <path_to_alignment_file> --type <unit/word_order> --tgt <path_to_target_file>`
+`python translation_shifts.py --src <path_to_alignment_file> --tgt <path_to_target_file> --type <unit/word_order>`
