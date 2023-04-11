@@ -7,6 +7,7 @@ Run alignment on a parallel corpus with the GIZA++ software:
 https://www2.statmt.org/moses/giza/GIZA++.html
 
 Original source for GIZA++:
+
 Franz Josef Och, Hermann Ney. "A Systematic Comparison of Various Statistical Alignment Models", Computational Linguistics, volume 29, number 1, pp. 19-51 March 2003.
 
 The final Vitebri alignment file (ending with "A3.final") is used as the argument for translation_shifts.py.
