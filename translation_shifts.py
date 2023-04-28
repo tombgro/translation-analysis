@@ -137,7 +137,7 @@ def word_order_shifts(alignment_file, al_count_dict=None, min_count_word=10, min
 
 def main():
     arg_parser = argparse.ArgumentParser()
-    arg_parser.add_argument('--src', help='Source alignment file created by GIZA++', default='../tatoeba/en_fi-fi_en/fi_en.A3.final')
+    arg_parser.add_argument('--src', help='Source alignment file created by GIZA++')
     arg_parser.add_argument('--tgt', help='Target filepath', default='results/shifts.txt')
     arg_parser.add_argument('--type', help='Type of translation shift: word_order/unit', default='unit')
     arg_parser.add_argument('--min_count', type=int, help='Minimum target count per source word', default=10)
